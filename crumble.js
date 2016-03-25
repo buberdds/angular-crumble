@@ -26,6 +26,7 @@
       return {
         path: $interpolate(path)(crumble.context),
         label: $interpolate(route.label)(crumble.context),
+        icon: $interpolate(route.icon)(crumble.context)
       };
     };
 
